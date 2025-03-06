@@ -1,4 +1,6 @@
 
+# Assignment 2
+
 # Quiz Application - FastAPI & PostgreSQL
 
 ## Overview
