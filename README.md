@@ -20,8 +20,8 @@ Ensure you have the following installed:
 
 ### 2 Clone the Repository
 ```sh
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone (https://github.com/Shaan-d21/docker-assignment2.git)
+cd FastAPI-assignment-1-main
 ```
 
 ### 3 Set Up Environment Variables
