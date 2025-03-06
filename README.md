@@ -6,7 +6,7 @@
 ## Overview
 This is a Quiz Application backend built with FastAPI and PostgreSQL, containerized using Docker Compose. The application allows users to interact with a quiz system through an API.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **FastAPI** (Backend framework)
 - **PostgreSQL** (Database)
 - **Docker & Docker Compose** (Containerization)
@@ -20,7 +20,7 @@ Ensure you have the following installed:
 
 ### 2 Clone the Repository
 ```sh
-git clone (https://github.com/Shaan-d21/docker-assignment2.git)
+git clone https://github.com/Shaan-d21/docker-assignment2.git
 cd FastAPI-assignment-1-main
 ```
 
