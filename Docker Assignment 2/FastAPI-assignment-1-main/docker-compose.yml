@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: backend_service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    env_file:
+      - backend.env
+    restart: always
+
+  db:
+    image: postgres:17-alpine
+    container_name: db_service
+    ports:
+      - "5432:5432"
+    volumes:
+      - data:/var/lib/postgresql/data
+    env_file:
+      - db.env
+    restart: always
+
+
+volumes:
+  data: {}
